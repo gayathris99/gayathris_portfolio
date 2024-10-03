@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  cila,
+  quinstreet,
+  saankhya,
   carrent,
   jobit,
   tripguide,
@@ -108,57 +107,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Member of Technical Staff",
+    company_name: "Saankhya Labs",
+    icon: saankhya,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2020 - August 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Developed modules for signal processing in C and Assembly Language compatible with Saankhya Hardware.',
+      'Verification of data on hardware and software simulated models'
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "10X INCUBATOR (Formerly CILA LABS)",
+    icon: cila,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2021 - February 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      'Lealzy(A royalty Program) - Worked on developing the platform and fixing pre-existing UI bugs using Quasar',
+      'Blooprinted - Consumer (An online course provider aimed at professionals at every industry) -Developed major UI pages and features for pre-production which were responsive and pixel-perfect with Figma designs provided by UX team using Quasar Framework',
+      'Blooprinted - Consumer (An online course creation platform for Blooprinted Consumer) -Developed major UI pages and features for pre-production which were responsive and pixel-perfect with Figma designs provided by UX team using Quasar Framework'
+
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineer - UI",
+    company_name: "Quinstreet",
+    icon: quinstreet,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "February 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing Quinstreet Media Platform (QMP) majorly using Vue/Quasar Framework.",
+      "Collaborating with cross-functional teams and other developers to create high-quality products.",
+      "Actively contributed to code optimizations and performance enhancements, resulting in faster loader times.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
