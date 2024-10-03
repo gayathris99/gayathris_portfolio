@@ -8,20 +8,17 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
+  vue,
+  quasar,
   cila,
   quinstreet,
   saankhya,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  perforce
 } from "../assets";
 
 export const navLinks = [
@@ -68,40 +65,28 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "VueJS",
+    icon: vue,
+  },
+  {
+    name: "Quasar",
+    icon: quasar,
+  },
+  {
+    name: "React",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "perforce",
+    icon: perforce,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "figma",
+    icon: figma,
   },
 ];
 

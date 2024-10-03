@@ -13,7 +13,7 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'></div>
         </div>
 
-        <div>
+        <div className='mb-xl'>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Gayathri</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Lorem ipsum dolor sit 
@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas className="mt-7"/>
+      <ComputersCanvas/>
     </section>
   )
 }
