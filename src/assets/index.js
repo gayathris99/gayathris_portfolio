@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from "./link.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -22,9 +23,9 @@ import cila from "./company/cila.png";
 import saankhya from "./company/saankhya.png";
 import quinstreet from "./company/quinstreet.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import kantlogistics from "./kantlogistics.png";
+import ajitnursinghome from "./ajitnursinghome.png";
+import mlmnce from "./mlmnce.png";
 
 export {
   logo,
@@ -33,6 +34,7 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   perforce,
@@ -45,9 +47,9 @@ export {
   typescript,
   vue,
   quasar,
-  carrent,
-  jobit,
-  tripguide,
+  kantlogistics,
+  ajitnursinghome,
+  mlmnce,
   cila,
   saankhya,
   quinstreet
